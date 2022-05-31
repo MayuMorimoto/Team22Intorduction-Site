@@ -152,13 +152,12 @@ table {
 
 #title-logo {
     width: 30%;
-    /* position: absolute; */
 }
 
 .header {
     background-color: #2A1545;
     position: relative;
-    height: 109px;
+    height: 100%;
     width: 100%;
     padding: 0;
 }
@@ -179,16 +178,11 @@ table {
 }
 
 .logo-img2 {
-    height: 400px !important;
+    padding-top: 20%;
     background-color: #2A1545;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     position: relative;
     background-color: #2A1545;
     overflow: hidden;
-    /* background-position: center; */
-    /* background-size: content; */
     width: 100%;
 }
 
@@ -198,9 +192,7 @@ table {
     animation-name: fadeInAnime;
     animation-fill-mode: forwards;
     animation-duration: 1s;
-    /* animation-iteration-count: infinite; */
     animation-timing-function: ease;
-    /* animation-delay: 0.5s; */
     animation-direction: normal;
 }
 
@@ -342,8 +334,8 @@ a {
 .member-box img {
     width: 100%;
     height: 100%;
-    /* object-fit: cover; */
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 
 footer {
